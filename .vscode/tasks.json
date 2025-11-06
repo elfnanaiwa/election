@@ -1,0 +1,102 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Flutter pub get",
+			"type": "shell",
+			"command": "flutter pub get",
+			"isBackground": false,
+			"problemMatcher": [
+				"$dartc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Flutter analyze",
+			"type": "shell",
+			"command": "flutter analyze",
+			"isBackground": false,
+			"problemMatcher": [
+				"$dartc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Flutter test",
+			"type": "shell",
+			"command": "flutter test --reporter=compact",
+			"isBackground": false,
+			"problemMatcher": [
+				"$dartc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Flutter analyze (post-fix)",
+			"type": "shell",
+			"command": "flutter analyze",
+			"isBackground": false,
+			"problemMatcher": [
+				"$dartc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Flutter test (updated)",
+			"type": "shell",
+			"command": "flutter test --reporter=compact",
+			"isBackground": false,
+			"problemMatcher": [
+				"$dartc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Flutter test (re-run)",
+			"type": "shell",
+			"command": "flutter test --reporter=compact",
+			"isBackground": false,
+			"problemMatcher": [
+				"$dartc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Flutter analyze (post-theme-toggle)",
+			"type": "shell",
+			"command": "flutter analyze",
+			"isBackground": false,
+			"problemMatcher": [
+				"$dartc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Flutter pub get (prefs)",
+			"type": "shell",
+			"command": "flutter pub get",
+			"isBackground": false,
+			"problemMatcher": [
+				"$dartc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Flutter analyze (final)",
+			"type": "shell",
+			"command": "flutter analyze",
+			"isBackground": false,
+			"problemMatcher": [
+				"$dartc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Flutter build windows (UI fix)",
+			"type": "shell",
+			"command": "flutter build windows",
+			"isBackground": false,
+			"group": "build"
+		}
+	]
+}
